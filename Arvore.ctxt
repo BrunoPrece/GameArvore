@@ -1,0 +1,7 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Arvore()
+comment1.params=id
+comment1.target=boolean\ remover(int)
+comment1.text=\r\n\ M\u00E9todo\ que\ elimina\ um\ determinado\ n\u00F3.\ Ser\u00E3o\ considerado\ tr\u00EAs\ casos\:\r\n\ 1)\ O\ n\u00F3\ a\ ser\ apagado\ \u00E9\ uma\ folha\ (n\u00E3o\ tem\ filhos).\r\n\ 2)\ O\ n\u00F3\ a\ ser\ apagado\ tem\ um\ filho\r\n\ 3)\ O\ n\u00F3\ a\ ser\ apagado\ tem\ dois\ filhos.\r\n
+numComments=2
