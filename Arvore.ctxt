@@ -1,0 +1,19 @@
+#BlueJ class context
+comment0.params=
+comment0.target=Arvore()
+comment1.params=
+comment1.target=No\ getRaiz()
+comment2.params=no
+comment2.target=void\ inserirSemRecursividade(No)
+comment2.text=\r\n\ Inserir\ sem\ recursividade.\r\n\r\n
+comment3.params=valor
+comment3.target=void\ delete(int)
+comment4.params=No
+comment4.target=No\ getHerdeiro(No)
+comment4.text=\r\n\ Fun\u00E7\u00E3o\ para\ buscar\ o\ herdeiro.\r\n
+comment5.params=no
+comment5.target=void\ inOrder(No)
+comment6.params=
+comment6.target=boolean\ isEmpty()
+comment6.text=\r\n\r\n\ @return\r\n
+numComments=7

@@ -1,0 +1,17 @@
+#BlueJ class context
+comment0.params=nivel\ jogadas
+comment0.target=No(int,\ int)
+comment0.text=\r\n\ COnstrutor\ para\ objetos\ da\ classe\ No\r\n
+comment1.params=
+comment1.target=int\ getNivel()
+comment2.params=
+comment2.target=int\ getJogadas()
+comment3.params=
+comment3.target=No\ getDireita()
+comment4.params=direita
+comment4.target=void\ setDireita(No)
+comment5.params=
+comment5.target=No\ getEsquerda()
+comment6.params=esquerda
+comment6.target=void\ setEsquerda(No)
+numComments=7
