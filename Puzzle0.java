@@ -27,9 +27,13 @@ public class Puzzle0 extends JFrame implements ActionListener {
     private JButton button;
     // Objeto tipo JLabel - Rótulo
     private JLabel label;
+
+    
     String img;
     int nivelAux = 1;
     Arvore arvoreDeNiveis =  new Arvore();
+    
+    
     private Image source;
     private Image image;
     // Matriz de Posições
@@ -42,14 +46,15 @@ public class Puzzle0 extends JFrame implements ActionListener {
     int clique = 0;
     // Contador inicial de tempo de execução;
     long timeinicio = System.currentTimeMillis();
+
     public Puzzle0(String img, int nivel){
         this(img);
         this.nivelAux = nivel;
     }
-
+    
+    
     // Método Construtor do Nível Escolhido - Recebe como argumento a Imagem escolhida pelo Jogador 
     public Puzzle0(String img) {
-        this.img = img;
 
         //MATRIZ PARA MONTAR O TOTAL DE PEÇAS DO PUZZLE, NESSA MATRIZ 5X5 TOTAL DE 25 PEÇAS. 
         pos = new int[][] {
@@ -159,7 +164,7 @@ public class Puzzle0 extends JFrame implements ActionListener {
         ///TAMANHO DA TELA
         setSize(400, 586);
         //TITULO DA TELA
-        setTitle("Puzzle Nível "+nivelAux);
+        setTitle("Puzzle Nível 0 " +nivelAux);
         //NÃO DEIXAR REDIMENSIONAR A TELA
         setResizable(false);
         setLocationRelativeTo(null);
@@ -273,11 +278,13 @@ public class Puzzle0 extends JFrame implements ActionListener {
             // EXIBE NA TELA O TEMPO PARA MONTAGEM DA IMAGEM E A QUANTIDADE CLIQUES NECESS�?RIOS PARA O FECHAMENTO DESTA TAREFA.
             JOptionPane.showMessageDialog(null, "Total de Movimentos: "+clique+"\nTempo do desafio: "+new SimpleDateFormat("mm:ss").format(new Date(timefim - timeinicio))+" Minutos"+"\nOK, este foi fácil... \nPronto para o Nível 2 ???");
             //System.exit(0);
+
+            
             Puzzle0 nivel2 = new Puzzle0("darth.jpg");
             No win = new No(nivelAux++,clique);
             arvoreDeNiveis.inserirSemRecursividade(win);
         }
 
     }
-
+    
 }
